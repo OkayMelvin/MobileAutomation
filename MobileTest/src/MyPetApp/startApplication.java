@@ -112,7 +112,7 @@ public class startApplication
         Thread.sleep(5000); 
     }
     @Test    
-    public void logoutTwitter6() throws InterruptedException
+    public void hirob() throws InterruptedException
     {
         WebElement el = driver.findElement(By.name("Add Contact"));
         el.click();
@@ -123,5 +123,4 @@ public class startApplication
         driver.findElementByName("Save").click();
         Thread.sleep(5000); 
     }
-
 }
